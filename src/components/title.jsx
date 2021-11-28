@@ -1,6 +1,12 @@
+import styled from 'styled-components';
+
+const StyledTitle = styled.h1`
+    color: palevioletred;
+`;
+
 export const Title = ({subtext}) => (
     <div>
-      <h1>Finanças para casais</h1>
+      <StyledTitle>Finanças para casais</StyledTitle>
       <h2>{subtext}</h2>
     </div>
   );
