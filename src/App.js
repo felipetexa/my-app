@@ -1,8 +1,8 @@
 import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Title } from "./components/Title";
 import { ExpenseField } from "./components/ExpenseField";
+import { ExpensesChart } from "./components/ExpensesChart";
 
 function App() {
   const [subtext, setSubtext] = useState();
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Title subtext={subtext} />
-        <img src={logo} className="App-logo" alt="logo" />
+        <ExpensesChart displayData />
         <ExpenseField displaySubtext={setSubtext} />
       </header>
     </div>
