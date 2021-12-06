@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 const StyledTitle = styled.h1`
-    color: palevioletred;
+    color: ivory;
 `;
 
 export const Title = ({subtext}) => (
     <div>
-      <StyledTitle>Finanças para casais</StyledTitle>
+      <StyledTitle>Couple Goals</StyledTitle>
       <h2>{subtext}</h2>
     </div>
   );

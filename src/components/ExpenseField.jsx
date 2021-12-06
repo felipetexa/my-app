@@ -6,8 +6,8 @@ export const ExpenseField = ({ displaySubtext }) => {
   return (
     <>
       <input type="text" onChange={(event) => setExpense(event.target.value)} />
-      <button onClick={() => displaySubtext(`Gasto inserido: ${expense}`)}>
-        INSERIR GASTO
+      <button onClick={() => displaySubtext(`Expense entered: $ ${expense}`)}>
+        INSERT EXPENSE
       </button>
     </>
   );
